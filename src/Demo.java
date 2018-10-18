@@ -5,7 +5,8 @@ public class Demo {
 		// TODO Auto-generated method stub
 		int [] niz = {12, 13, 14, 15, 17};
  		for(int i = 0; i < niz.length ; i++ ) {
- 			System.out.println("Element niza " + i + " je " + niz[i] );
+ 			System.out.println("Element niza " + i 
+ 					+ " je " + niz[i] );
  		}
 	}
 
