@@ -2,17 +2,14 @@
 public class Demo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		int [] niz = new int[3];
-		niz[0] = 7;
-		niz[1] = 6;
-		niz[2] = 5;
-//		niz[3] = 4; Greska kapacitet niza je ogranizen na 3
+		int [][] matrica = {{1, 2, 3}, {2, 3, 1}, {3, 2, 1}};
 		
-		for(int i : niz) {
- 			System.out.println(" Vrednost element niza " 
- 					+ " je " + i );
- 		}
+		for(int i = 0; i < 3 ; i++) {
+			System.out.println(" ");
+			for(int j = 0; j<3; j++) {
+				System.out.print(matrica[i][j] );
+			}
+		}
 	}
 
 }
